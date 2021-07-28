@@ -1,0 +1,9 @@
+<h1>Sign in</h1>
+{{#if error}}
+<p>{{error}}</p>
+{{/if}}
+<form method="POST" action="/signin">
+    <input type="text" name="username" placeholder="username"></input>
+    <input type="password" name="password" placeholder="password"></input>
+    <button>Sign in</button>
+</form>
